@@ -1,4 +1,6 @@
-    def fire_at(self, enemy):
+import random
+
+def fire_at(self, enemy):
         if self.ammo >=1:
             self.ammo -=1
             print(self.name, "fires on", enemy.name)
