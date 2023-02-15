@@ -19,7 +19,7 @@ def movimento(superficie,anglulo):
 pygame.init()
 
 #seta o tamanho da janela
-screen = pygame.display.set_mode([600,600])
+screen = pygame.display.set_mode([500,500])
 tank = pygame.image.load('toptank.png')
 
 anglulo = 0
